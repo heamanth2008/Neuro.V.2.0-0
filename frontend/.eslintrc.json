@@ -1,0 +1,62 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "no-console": "off",
+    "prefer-const": "error",
+    "no-var": "error"
+  },
+  "globals": {
+    "lucide": "readonly",
+    "YT": "readonly",
+    "API": "readonly",
+    "S": "readonly",
+    "showToast": "readonly",
+    "escapeHtml": "readonly",
+    "switchView": "readonly",
+    "playSong": "readonly",
+    "formatTime": "readonly",
+    "hashCode": "readonly",
+    "confirmAsync": "readonly",
+    "clearCache": "readonly",
+    "refreshCachedImages": "readonly",
+    "loadHomeData": "readonly",
+    "loadLibraryData": "readonly",
+    "loadSettings": "readonly",
+    "loadAccountData": "readonly",
+    "loadNewView": "readonly",
+    "openLibrarySubView": "readonly",
+    "renderLibrarySongsView": "readonly",
+    "renderLibraryArtistsView": "readonly",
+    "renderLibraryAlbumsView": "readonly",
+    "renderOfflineLibraryView": "readonly",
+    "renderLikedSongsView": "readonly",
+    "openPlaylistDetail": "readonly",
+    "renderPlayNextQueue": "readonly",
+    "createContextMenu": "readonly",
+    "showContextMenu": "readonly",
+    "handleContextMenuAction": "readonly",
+    "addToPlayNext": "readonly",
+    "toggleLike": "readonly",
+    "logPlayToHistory": "readonly",
+    "openLyricsDrawer": "readonly",
+    "renderSyncedLyrics": "readonly",
+    "startKeepAliveAudio": "readonly",
+    "pauseKeepAliveAudio": "readonly"
+  }
+}
