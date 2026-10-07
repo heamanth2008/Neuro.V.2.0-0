@@ -1,0 +1,2 @@
+# Root requirements pointing to backend dependencies for PaaS platforms like Render
+-r backend/requirements.txt
